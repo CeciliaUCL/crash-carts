@@ -1,19 +1,21 @@
 {
-  "name": "desh_react",
+  "name": "frontend",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "dayjs": "^1.11.10",
-    "jquery": "^3.7.1",
+    "chart.js": "^4.4.1",
+    "mqtt": "^5.3.4",
     "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet": "^6.1.0",
-    "react-router": "^6.16.0",
-    "react-router-dom": "^6.16.0",
+    "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
+    "react-use-websocket": "^4.5.0",
+    "recharts": "^2.11.0",
+    "socket.io-client": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,8 +41,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "axios": "^1.6.8"
   }
 }
