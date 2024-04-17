@@ -1,0 +1,66 @@
+.box-content-warp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+    width: 360px;
+    height: 325px;
+    border: 1px solid #ffffff;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.box-content-warp > div {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #6dd2eb;
+    overflow: scroll;
+    -ms-overflow-style: none; /* 隐藏滚动条 適用於 IE 和 Edge */
+    scrollbar-width: none; /* 隐藏滚动条 適用於 Firefox */
+}
+
+.box-content-warp > div > div:first-child > h5 {
+    margin-top: 10px;
+    color: black;
+    font-size: 13px;
+}
+
+.item_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 10px;
+    gap: 10px;
+    background: #efc38e;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+.item_container > div {
+    overflow: visible;
+    width: 70px;
+    /* text-overflow: ellipsis; */
+    white-space: nowrap;
+}
+
+.item_container > div:first-child {
+    color: #100202;
+    font-weight: bold;
+}
+
+.item_container > div:last-child {
+    color: #100202;
+    font-weight: bold;
+}
+
+table {
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    text-align: center;
+}
